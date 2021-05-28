@@ -10,9 +10,9 @@ R8 ignores the proguard configuration needed to retain line numbers in stack tra
 -keepattributes LineNumberTable,SourceFile
 ```
 
-This project showcases this bug. There is a single screen with a "Next" button. Tapping on the "Next" button creates a `java.lang.Throwable` instance and logs it to the console.a
+This project showcases this bug. There is a single screen with a "Next" button. Tapping on the "Next" button creates a `java.lang.Throwable` instance and logs it to the console.
 
-Here is a sample of the stack trace when R8 is enabled and the `debuggable` flag is set to `true`.a
+Here is a sample of the stack trace when R8 is enabled and the `debuggable` flag is set to `true`.
 
 ```
 2021-05-28 12:13:31.519 14034-14034/in.obvious.r8test I/R8Test: Error
