@@ -1,0 +1,2 @@
+rootProject.name = "R8 Test"
+include ':app'
